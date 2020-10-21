@@ -1,0 +1,184 @@
+                            :root {
+                               --primary-text-color: #757575;
+                               --title-text-color: #212121;
+                               --accent-color: #2196F3;
+                               --header-background-color: #FFFFFF;
+                               --some-text-color: #000000;
+                               --footer-text-color: rgba(255, 255, 255, 0.6);
+                               --main-background-color: #E5E5E5;
+                               --secondery-background-color: #2F303A;
+                               --section-background-color: #F5F4FA;
+                           }
+                           
+                           body {
+                               font-family: Roboto, sans-serif;
+                               font-size: 14px;
+                               line-height: 1.71;
+                               letter-spacing: 0.03em;
+                               color: var(--primary-text-color);
+                               background-color: var(--main-background-color);
+                           }
+                           
+                           ul {
+                               list-style: none;
+                           }
+                           /* Header */
+                           
+                           .header {
+                               font-weight: 500;
+                               font-size: 14px;
+                               line-height: 1.142;
+                               letter-spacing: 0.02em;
+                               background-color: var(--header-background-color);
+                           }
+                           /* Logo */
+                           
+                           .logo,
+                           .footer-logo {
+                               font-family: Raleway, sans-serif;
+                               font-weight: 700;
+                               font-size: 26px;
+                               line-height: 1.192;
+                               letter-spacing: 0.03em;
+                               color: var(--some-text-color);
+                           }
+                           
+                           .logo-accent {
+                               color: var(--accent-color);
+                           }
+                           
+                           .logo,
+                           .link {
+                               text-decoration: none;
+                           }
+                           /*  Site-nav, Site-cont */
+                           
+                           .site-nav .link {
+                               color: var(--title-text-color);
+                           }
+                           
+                           .site-nav .link:hover,
+                           .site-nav .link:focus,
+                           .site-cont .link:hover,
+                           .site-cont .link:focus,
+                           .site-nav .link.current {
+                               color: var(--accent-color);
+                           }
+                           
+                           .site-cont .link {
+                               color: var(--primary-text-color);
+                           }
+                           /* Hero */
+                           
+                           .hero {
+                               text-align: center;
+                               background-color: var(--secondery-background-color);
+                           }
+                           
+                           .hero-title {
+                               font-weight: 900;
+                               font-size: 44px;
+                               line-height: 1.36;
+                               letter-spacing: 0.06em;
+                               text-transform: uppercase;
+                               color: var(--header-background-color);
+                           }
+                           /* Section */
+                           
+                           .section-title {
+                               font-weight: 700;
+                               font-size: 36px;
+                               line-height: 1.167;
+                               text-align: center;
+                               color: var(--title-text-color);
+                           }
+                           /* Features */
+                           
+                           .feature-list .title {
+                               font-weight: 700;
+                               font-size: 14px;
+                               line-height: 1.143;
+                               text-transform: uppercase;
+                               color: var(--title-text-color);
+                           }
+                           /* Team */
+                           
+                           .team {
+                               background-color: var(--section-background-color);
+                           }
+                           
+                           .card {
+                               text-align: center;
+                               background-color: var(--header-background-color);
+                           }
+                           
+                           .team-list .title {
+                               font-weight: 500;
+                               font-size: 16px;
+                               line-height: 1.188;
+                               color: var(--title-text-color);
+                           }
+                           /* Progects*/
+                           
+                           .progect-list .title {
+                               font-weight: 700;
+                               font-size: 18px;
+                               line-height: 2;
+                               letter-spacing: 0.06em;
+                               color: var(--title-text-color);
+                           }
+                           /* Text */
+                           
+                           .spec {
+                               font-size: 16px;
+                               line-height: 1.188;
+                           }
+                           
+                           .dep {
+                               font-size: 16px;
+                               line-height: 1.87;
+                           }
+                           /* Footer */
+                           
+                           .footer,
+                           .footer-logo {
+                               text-decoration: none;
+                               color: var(--header-background-color);
+                               background-color: var(--secondery-background-color);
+                           }
+                           
+                           .address .link {
+                               color: var(--footer-text-color);
+                           }
+                           
+                           .address .link:hover,
+                           .address .link:focus {
+                               color: var(--accent-color);
+                           }
+                           /* Button */
+                           
+                           .button.primary {
+                               font-weight: 700;
+                               font-size: 16px;
+                               line-height: 1.875;
+                               text-align: center;
+                               letter-spacing: 0.06em;
+                               color: var(--header-background-color);
+                               background-color: var(--accent-color);
+                           }
+                           
+                           .button.filter {
+                               font-weight: 500;
+                               font-size: 16px;
+                               line-height: 1.62;
+                               text-align: center;
+                               letter-spacing: 0.03em;
+                               color: var(--title-text-color);
+                               background-color: var(--section-background-color);
+                           }
+                           
+                           .filter-list .button.filter:hover,
+                           .filter-list .button.filter:focus {
+                               color: var(--header-background-color);
+                               background-color: var(--accent-color);
+                           }
